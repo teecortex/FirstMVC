@@ -1,0 +1,32 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<meta charset="UTF-8">
+<html lang="ru">
+<head>
+    <title>Заголовок</title>
+    @foreach (var obj in ViewBag.Result)
+    {
+        <p>Пользователь</p>
+        <p>Id:@obj.Id</p>
+        <p>First name:@obj.FirstName</p>
+        <p>Last name:@obj.LastName</p>
+        <p>Patronymic:@obj.Patronymic</p>
+        <p>Date of birth:@obj.DateOfBirth</p>
+        <p>Phone number:@obj.PhoneNumber</p>
+        <p>Email:@obj.Email</p>
+        <p>Rating:@obj.Rating</p>
+        <p>Tariff id:@obj.TariffId</p>
+        <p>Date of creation:@obj.DateOfCreation</p>
+        <p>Date of update:@obj.DateOfUpdate</p>
+    }
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>

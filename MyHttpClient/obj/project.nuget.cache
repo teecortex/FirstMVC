@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "g7a4MrNQfd772IRFdwnI3SWX/n9FSKoRAvbkptZpHKJaeJ4hZeTJpsvv/R+OvM7pVdWNcvVpt0a2kLy8G+wOmg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\MyHttpClient\\MyHttpClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.7\\microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

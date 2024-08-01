@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{60D8D30B-317E-403C-BBD8-FC8462BB46E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHttpClient", "MyHttpClient\MyHttpClient.csproj", "{5071D16D-7D2C-4015-86BA-D805C0C4B1C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60D8D30B-317E-403C-BBD8-FC8462BB46E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D8D30B-317E-403C-BBD8-FC8462BB46E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D8D30B-317E-403C-BBD8-FC8462BB46E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D8D30B-317E-403C-BBD8-FC8462BB46E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5071D16D-7D2C-4015-86BA-D805C0C4B1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5071D16D-7D2C-4015-86BA-D805C0C4B1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5071D16D-7D2C-4015-86BA-D805C0C4B1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5071D16D-7D2C-4015-86BA-D805C0C4B1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

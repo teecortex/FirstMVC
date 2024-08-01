@@ -1,0 +1,12 @@
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\bin\Debug\net8.0\MyHttpClient.deps.json
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\bin\Debug\net8.0\MyHttpClient.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\bin\Debug\net8.0\MyHttpClient.pdb
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\MyHttpClient.csproj.AssemblyReference.cache
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\MyHttpClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\MyHttpClient.AssemblyInfoInputs.cache
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\MyHttpClient.AssemblyInfo.cs
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\MyHttpClient.csproj.CoreCompileInputs.cache
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\MyHttpClient.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\refint\MyHttpClient.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\MyHttpClient.pdb
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\ref\MyHttpClient.dll
