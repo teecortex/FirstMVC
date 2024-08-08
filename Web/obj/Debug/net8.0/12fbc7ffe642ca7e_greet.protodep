@@ -1,0 +1,2 @@
+GrpcServices\Protos/Greet.cs \
+GrpcServices\Protos/GreetGrpc.cs: Protos/greet.proto

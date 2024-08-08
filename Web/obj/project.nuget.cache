@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "lbTnF1Qn/wjR6DwFv/O5zLucDy4/qcWoa9Xh0JkeyfYjHookgOOoFnnz1Llv8QWZv46rEZ0ZUxNpKvZWn2+szQ==",
+  "dgSpecHash": "Jtn7sBfIBb4I5arq2I7fpeRO0BwJ+bEEdDvj/FIZBAYbHtog7gdvJ2wqyfvM9XqZwV+TEI7EQBwhaB593a639A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\Web\\Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Эдуард\\.nuget\\packages\\google.protobuf\\3.27.3\\google.protobuf.3.27.3.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.core.api\\2.62.0\\grpc.core.api.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.net.client\\2.62.0\\grpc.net.client.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.net.common\\2.62.0\\grpc.net.common.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.tools\\2.62.0\\grpc.tools.2.62.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.7\\microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",

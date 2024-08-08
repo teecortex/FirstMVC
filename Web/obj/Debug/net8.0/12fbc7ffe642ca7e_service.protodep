@@ -1,0 +1,5 @@
+GrpcServices\Protos/Service.cs \
+GrpcServices\Protos/ServiceGrpc.cs: C:/Users/Эдуард/.nuget/packages/grpc.tools/2.62.0/build/native/include/google/protobuf/wrappers.proto\
+ C:/Users/Эдуард/.nuget/packages/grpc.tools/2.62.0/build/native/include/google/protobuf/timestamp.proto\
+ C:/Users/Эдуард/.nuget/packages/grpc.tools/2.62.0/build/native/include/google/protobuf/empty.proto\
+ Protos/service.proto

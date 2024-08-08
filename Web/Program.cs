@@ -1,5 +1,7 @@
+using Grpc.Net.Client;
 using Microsoft.AspNetCore.Components.Sections;
 using MyHttpClient.Infrastructure;
+using Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,13 @@ var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
+
+using var channel = GrpcChannel.ForAddress("http://localhost:5037");
+var sub_client = new SubscriberService.SubscriberServiceClient(channel);
+var tariff_client = new TariffService.TariffServiceClient(channel);
+var service_client = new ServiceService.ServiceServiceClient(channel);
+
+// var reply = await client.ListSubscribersAsync(new Google.Protobuf.WellKnownTypes.Empty());
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

@@ -38,3 +38,8 @@ C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\obj\Debug\net8.0\Web.cspro
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\obj\Debug\net8.0\Web.sourcelink.json

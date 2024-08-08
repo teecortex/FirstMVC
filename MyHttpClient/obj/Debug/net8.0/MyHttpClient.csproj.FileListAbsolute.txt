@@ -10,3 +10,4 @@ C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\refint\MyHttpClient.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\MyHttpClient.pdb
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\ref\MyHttpClient.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\MyHttpClient\obj\Debug\net8.0\MyHttpClient.sourcelink.json
