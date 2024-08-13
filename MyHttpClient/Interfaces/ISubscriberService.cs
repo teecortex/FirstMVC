@@ -4,5 +4,6 @@ namespace MyHttpClient.Interfaces;
 
 public interface ISubscriberService
 {
-    Task<Subscriber?[]> GetSubscribers();
+    Task<Subscriber?[]> GetSubscribers(CancellationToken token);
+    Task<Subscriber?> GetSubscriber(int id, CancellationToken token);
 }

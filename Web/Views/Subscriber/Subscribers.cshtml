@@ -1,3 +1,4 @@
+@model MyHttpClient.Entities.Subscriber[];
 @{
     Layout = null;
 }
@@ -8,7 +9,7 @@
 <html lang="ru">
 <head>
     <title>Заголовок</title>
-    @foreach (var obj in ViewBag.Result)
+    @foreach (var obj in Model)
     {
         <p>Пользователь</p>
         <p>Id:@obj.Id</p>

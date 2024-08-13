@@ -1,0 +1,52 @@
+schema {
+  query: QueryProvider
+}
+
+type QueryProvider {
+  subscribers: [Subscriber!]!
+  tariffs: [Tariff!]!
+  services: [Service!]!
+  subscriber(id: Int!): Subscriber!
+  tariff(id: Int!): Tariff!
+  service(id: Int!): Service!
+}
+
+type Tariff {
+  id: Int!
+  title: String!
+  description: String
+  typeOfFeeDebit: String!
+  subscriptionFee: Int!
+  minutesLimit: Int!
+  internetTrafficLimit: Int!
+  price: Int!
+  dateOfCreation: DateTime
+  dateOfUpdate: DateTime
+}
+
+type Subscriber {
+  id: Int!
+  firstName: String!
+  lastName: String!
+  patronymic: String
+  dateOfBirth: DateTime!
+  phoneNumber: String!
+  email: String!
+  rating: Int!
+  tariffId: Int
+  dateOfCreation: DateTime
+  dateOfUpdate: DateTime
+}
+
+type Service {
+  id: Int!
+  title: String!
+  description: String
+  expirationDate: DateTime!
+  price: Int!
+  dateOfCreation: DateTime
+  dateOfUpdate: DateTime
+}
+
+"The `DateTime` scalar represents an ISO-8601 compliant date time type."
+scalar DateTime

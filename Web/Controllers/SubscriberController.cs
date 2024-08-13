@@ -3,6 +3,7 @@ using MyHttpClient.Interfaces;
 
 namespace WebProjectMVC.Controllers;
 
+[Route("api/subscribers")]
 public class SubscriberController : Controller
 {
     private ISubscriberService _subscriberService;
@@ -12,11 +13,22 @@ public class SubscriberController : Controller
         _subscriberService = subscriberService;
     }
 
-    [HttpGet, Route("api/subscribers")]
-    public async Task<IActionResult> Subscribers()
+    [HttpGet]
+    public async Task<IActionResult> Subscribers(CancellationToken token)
     {
-        var response = await _subscriberService.GetSubscribers();
-        ViewBag.Result = response;
-        return View();
+        var response = await _subscriberService.GetSubscribers(token);
+        return View(response);
+    }
+
+    [HttpGet, Route("{id}")]
+    public async Task<IActionResult> Subscriber(int id, CancellationToken token)
+    {
+        var response = await _subscriberService.GetSubscriber(id, token);
+        if (response == null)
+        {
+            return NotFound();
+        }
+
+        return View(response);
     }
 }

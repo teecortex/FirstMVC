@@ -1,0 +1,87 @@
+query GetSubscribers {
+    subscribers {
+        dateOfBirth
+        dateOfCreation
+        dateOfUpdate
+        email
+        firstName
+        id
+        lastName
+        patronymic
+        phoneNumber
+        rating
+        tariffId
+    }
+}
+
+query GetServices{
+  services {
+    dateOfCreation
+    dateOfUpdate
+    description
+    expirationDate
+    id
+    price
+    title
+  }
+}
+
+
+query GetTariffs{
+  tariffs {
+    dateOfCreation
+    dateOfUpdate
+    description
+    id
+    internetTrafficLimit
+    minutesLimit
+    price
+    subscriptionFee
+    title
+    typeOfFeeDebit
+  }
+}
+
+query GetSubscriber($id: Int!) {
+    subscriber(id: $id) {
+        dateOfBirth
+        dateOfCreation
+        dateOfUpdate
+        email
+        firstName
+        id
+        lastName
+        patronymic
+        phoneNumber
+        rating
+        tariffId
+    }
+}
+
+query GetTariff($id: Int!) {
+    tariff(id: $id) {
+        dateOfCreation
+        dateOfUpdate
+        description
+        id
+        internetTrafficLimit
+        minutesLimit
+        price
+        subscriptionFee
+        title
+        typeOfFeeDebit
+    }
+}
+
+query GetService($id: Int!) {
+    service(id: $id) {
+        dateOfCreation
+        dateOfUpdate
+        description
+        expirationDate
+        id
+        price
+        title
+    }
+}
+

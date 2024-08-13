@@ -8,9 +8,9 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddHttpContext(this IServiceCollection service)
     {
-        service.AddHttpClient<ISubscriberService, SubscriberService>("SubscriberClient", client =>
+        service.AddHttpClient<ISubscriberService, SubscriberService>(client =>
         {
-            client.BaseAddress = new Uri("http://localhost:5000/");
+            client.BaseAddress = new Uri("http://localhost:5029/");
         });
         return service;
     }

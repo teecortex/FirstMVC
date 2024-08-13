@@ -2,6 +2,7 @@ using Grpc.Net.Client;
 using Microsoft.AspNetCore.Components.Sections;
 using MyHttpClient.Infrastructure;
 using Web;
+using Web.Graphql;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +12,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddHttpContext();
+builder.Services.AddWebClient().ConfigureHttpClient(client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5029/graphql");
+});
 
-// Console.WriteLine(builder.Configuration["AllowedHosts"]);
 
 var app = builder.Build();
+
+var graphql_service = app.Services.GetService<WebClient>();
 
 app.UseSwagger();
 app.UseSwaggerUI();
@@ -24,7 +30,6 @@ var sub_client = new SubscriberService.SubscriberServiceClient(channel);
 var tariff_client = new TariffService.TariffServiceClient(channel);
 var service_client = new ServiceService.ServiceServiceClient(channel);
 
-// var reply = await client.ListSubscribersAsync(new Google.Protobuf.WellKnownTypes.Empty());
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -38,6 +43,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
 
 app.UseAuthorization();
 

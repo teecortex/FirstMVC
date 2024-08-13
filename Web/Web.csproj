@@ -12,15 +12,15 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\Subscriber.proto" GrpcServices="Client" OutputDir="GrpcServices"/>
+        <Protobuf Include="Protos\Subscriber.proto" GrpcServices="Client" OutputDir="GrpcServices" />
     </ItemGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\tariff.proto" GrpcServices="Client" OutputDir="GrpcServices"/>
+        <Protobuf Include="Protos\tariff.proto" GrpcServices="Client" OutputDir="GrpcServices" />
     </ItemGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\service.proto" GrpcServices="Client" OutputDir="GrpcServices"/>
+        <Protobuf Include="Protos\service.proto" GrpcServices="Client" OutputDir="GrpcServices" />
     </ItemGroup>
 
     <ItemGroup>
@@ -30,11 +30,24 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+      <PackageReference Include="StrawberryShake.Server" Version="13.9.11" />
+      <PackageReference Include="StrawberryShake.Transport.Http" Version="13.9.11" />
       <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="GrpcServices\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Watch Remove="Queries\QueryFirst.graphql" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <GraphQL Update="Queries\GetSubs.graphql">
+        <Generator>MSBuild:GenerateGraphQLCode</Generator>
+      </GraphQL>
     </ItemGroup>
 
 </Project>

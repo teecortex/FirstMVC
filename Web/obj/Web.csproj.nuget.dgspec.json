@@ -119,6 +119,18 @@
               "target": "Package",
               "version": "[2.62.0, )"
             },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StrawberryShake.Server": {
+              "target": "Package",
+              "version": "[13.9.11, )"
+            },
+            "StrawberryShake.Transport.Http": {
+              "target": "Package",
+              "version": "[13.9.11, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

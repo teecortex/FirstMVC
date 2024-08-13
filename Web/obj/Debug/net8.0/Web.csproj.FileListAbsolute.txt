@@ -43,3 +43,12 @@ C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Grpc.Core
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Grpc.Net.Client.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Grpc.Net.Common.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\obj\Debug\net8.0\Web.sourcelink.json
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\HotChocolate.Language.SyntaxTree.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\HotChocolate.Transport.Abstractions.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\HotChocolate.Transport.Http.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\HotChocolate.Utilities.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\StrawberryShake.Core.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\StrawberryShake.Resources.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\StrawberryShake.Transport.Http.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\.graphqlrc.json
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\StrawberryShake.Transport.WebSockets.dll
