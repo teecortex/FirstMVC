@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "d09+ETCTUvWWkBPRsVoUAJpWgSh+n1WQREvGSbfN7NPe53HfEQivXbnjxp5D6wJXUeNnLhK6eUQnDXz2b902DQ==",
+  "dgSpecHash": "JuQnse/CQweYBrhDvjjo1nEQvO6aYWeUyTvLYi77XvHySBdR+AXSaPSkfTkMsQDstssJPUtIv+YjPeQaCFteVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Эдуард\\.nuget\\packages\\google.protobuf\\3.27.3\\google.protobuf.3.27.3.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.core.api\\2.62.0\\grpc.core.api.2.62.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.net.client\\2.62.0\\grpc.net.client.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.net.clientfactory\\2.62.0\\grpc.net.clientfactory.2.62.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.net.common\\2.62.0\\grpc.net.common.2.62.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.tools\\2.62.0\\grpc.tools.2.62.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\hotchocolate.language.syntaxtree\\13.9.11\\hotchocolate.language.syntaxtree.13.9.11.nupkg.sha512",
@@ -16,6 +17,8 @@
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.7\\microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\8.0.0\\microsoft.aspnetcore.webutilities.8.0.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",

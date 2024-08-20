@@ -1,4 +1,4 @@
-namespace MyHttpClient.Entities;
+namespace ApplicationCore.Entities;
 
 public class Subscriber
 {

@@ -4,6 +4,67 @@
     "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\Web\\Web.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\ApplicationCore\\ApplicationCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\ApplicationCore\\ApplicationCore.csproj",
+        "projectName": "ApplicationCore",
+        "projectPath": "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Эдуард\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\ApplicationCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Эдуард\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\MyHttpClient\\MyHttpClient.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +88,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\ApplicationCore\\ApplicationCore.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -110,6 +175,10 @@
               "version": "[3.27.3, )"
             },
             "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.62.0, )"
+            },
+            "Grpc.Net.ClientFactory": {
               "target": "Package",
               "version": "[2.62.0, )"
             },

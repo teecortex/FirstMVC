@@ -1,5 +1,5 @@
+using ApplicationCore.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using MyHttpClient.Interfaces;
 
 namespace WebProjectMVC.Controllers;
 

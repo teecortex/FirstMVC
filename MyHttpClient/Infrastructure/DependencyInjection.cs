@@ -1,17 +1,24 @@
 using Microsoft.Extensions.DependencyInjection;
-using MyHttpClient.Interfaces;
+using ApplicationCore.Interfaces;
 using MyHttpClient.Services;
 
 namespace MyHttpClient.Infrastructure;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddHttpContext(this IServiceCollection service)
+    public static IServiceCollection AddMyHttpClient(this IServiceCollection service)
     {
-        service.AddHttpClient<ISubscriberService, SubscriberService>(client =>
+        service.AddHttpClient<ISubscriberHttpClient, SubscriberHttpService>(client =>
         {
             client.BaseAddress = new Uri("http://localhost:5029/");
         });
+        
         return service;
     }
+
+    // public static IServiceCollection AddSuperGrpc(this IServiceCollection service)
+    // {
+    //     
+    //     return service;
+    // }
 }
