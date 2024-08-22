@@ -9,7 +9,8 @@ public static class DependencyInjection
     public static IServiceCollection AddApplication(this IServiceCollection service)
     {
         service.AddMemoryCache();
-        service.AddScoped<ISubscriberService, SubscriberService>();
+        service.AddScoped<ISubscriberService, ApplicationCore.Services.SubscriberService>();
+        service.AddScoped<ISubscriberGrpcClient, SubscriberGrpcClient>();
 
         return service;
     }

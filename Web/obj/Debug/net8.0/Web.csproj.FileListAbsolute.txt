@@ -55,3 +55,5 @@ C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Strawberr
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\ApplicationCore.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\GrpcClient.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\GrpcClient.pdb

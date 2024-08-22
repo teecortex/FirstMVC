@@ -12,6 +12,7 @@
           "Grpc.Net.Client": "2.62.0",
           "Grpc.Net.ClientFactory": "2.62.0",
           "Grpc.Tools": "2.62.0",
+          "GrpcClient": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "MyHttpClient": "1.0.0",
           "StrawberryShake.Server": "13.9.11",
@@ -355,10 +356,23 @@
       "System.Threading.Channels/8.0.0": {},
       "ApplicationCore/1.0.0": {
         "dependencies": {
+          "Google.Protobuf": "3.27.3",
+          "Grpc.Net.Client": "2.62.0",
           "Microsoft.Extensions.Caching.Memory": "8.0.0"
         },
         "runtime": {
           "ApplicationCore.dll": {}
+        }
+      },
+      "GrpcClient/1.0.0": {
+        "dependencies": {
+          "ApplicationCore": "1.0.0",
+          "Google.Protobuf": "3.27.3",
+          "Grpc.Net.Client": "2.62.0",
+          "Grpc.Net.ClientFactory": "2.62.0"
+        },
+        "runtime": {
+          "GrpcClient.dll": {}
         }
       },
       "MyHttpClient/1.0.0": {
@@ -708,6 +722,11 @@
       "hashPath": "system.threading.channels.8.0.0.nupkg.sha512"
     },
     "ApplicationCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GrpcClient/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

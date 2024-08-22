@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MrGEUhr51g7AOYjE5vQj1mxk5UetDnloTuVtuAraiUSx5qAK1jtrlCfFG3dXd9awXfAMT3X19XfQyZRzbNqtQQ==",
+  "dgSpecHash": "93Uj6mudIy48c2BsT3ED1WjQxSkTwugHHnm9mQi1R6gk3zoUaOIBlahqw78+oRY4aNX1TaUXhFUv9zuhN00Omg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\MyHttpClient\\MyHttpClient.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Эдуард\\.nuget\\packages\\google.protobuf\\3.27.3\\google.protobuf.3.27.3.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.core.api\\2.62.0\\grpc.core.api.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.net.client\\2.62.0\\grpc.net.client.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.net.common\\2.62.0\\grpc.net.common.2.62.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.7\\microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",

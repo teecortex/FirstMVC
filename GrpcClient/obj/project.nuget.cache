@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "jj25O879qMNIujXY30RQfRcgv8pXNOcoWLOsmQFnwCXGTC9/JvWOh2rXdO5XsPpLH3lo1DGH/rAultUqVM3U3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Эдуард\\RiderProjects\\WebProjectMVC\\GrpcClient\\GrpcClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Эдуард\\.nuget\\packages\\google.protobuf\\3.27.3\\google.protobuf.3.27.3.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.core.api\\2.62.0\\grpc.core.api.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.net.client\\2.62.0\\grpc.net.client.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.net.clientfactory\\2.62.0\\grpc.net.clientfactory.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.net.common\\2.62.0\\grpc.net.common.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\grpc.tools\\2.62.0\\grpc.tools.2.62.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Эдуард\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

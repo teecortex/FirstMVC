@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\GrpcClient\GrpcClient.csproj" />
       <ProjectReference Include="..\MyHttpClient\MyHttpClient.csproj" />
     </ItemGroup>
 

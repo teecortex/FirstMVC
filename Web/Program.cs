@@ -1,7 +1,7 @@
 using ApplicationCore;
 using Grpc.Net.Client;
+using GrpcClient.Infrastructure;
 using MyHttpClient.Infrastructure;
-using Web;
 using Web.Graphql;
 
 
@@ -15,6 +15,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddApplication();
 
 builder.Services.AddMyHttpClient();
+
+builder.Services.AddMyGrpcClient();
+builder.Services.AddSubscriberGrpcService();
+
 builder.Services.AddWebClient().ConfigureHttpClient(client =>
 {
     client.BaseAddress = new Uri("http://localhost:5029/graphql");
@@ -27,11 +31,11 @@ var graphql_service = app.Services.GetService<WebClient>();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-using var channel = GrpcChannel.ForAddress("http://localhost:5037");
+// using var channel = GrpcChannel.ForAddress("http://localhost:5037");
 
-var sub_client = new SubscriberService.SubscriberServiceClient(channel);
-var tariff_client = new TariffService.TariffServiceClient(channel);
-var service_client = new ServiceService.ServiceServiceClient(channel);
+// var sub_client = new SubscriberService.SubscriberServiceClient(channel);
+// var tariff_client = new TariffService.TariffServiceClient(channel);
+// var service_client = new ServiceService.ServiceServiceClient(channel);
 
 
 // Configure the HTTP request pipeline.
@@ -49,6 +53,7 @@ app.UseRouting();
 
 
 app.UseAuthorization();
+
 
 app.MapControllerRoute(
     name: "default",
