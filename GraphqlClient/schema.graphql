@@ -6,9 +6,9 @@ type QueryProvider {
   subscribers: [Subscriber!]!
   tariffs: [Tariff!]!
   services: [Service!]!
-  subscriber(id: Int!): Subscriber!
-  tariff(id: Int!): Tariff!
-  service(id: Int!): Service!
+  subscriber(id: Int!): Subscriber
+  tariff(id: Int!): Tariff
+  service(id: Int!): Service
 }
 
 type Tariff {

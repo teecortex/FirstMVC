@@ -9,6 +9,7 @@
       "Web/1.0.0": {
         "dependencies": {
           "Google.Protobuf": "3.27.3",
+          "GraphqlClient": "1.0.0",
           "Grpc.Net.Client": "2.62.0",
           "Grpc.Net.ClientFactory": "2.62.0",
           "Grpc.Tools": "2.62.0",
@@ -362,6 +363,16 @@
         },
         "runtime": {
           "ApplicationCore.dll": {}
+        }
+      },
+      "GraphqlClient/1.0.0": {
+        "dependencies": {
+          "ApplicationCore": "1.0.0",
+          "StrawberryShake.Server": "13.9.11",
+          "StrawberryShake.Transport.Http": "13.9.11"
+        },
+        "runtime": {
+          "GraphqlClient.dll": {}
         }
       },
       "GrpcClient/1.0.0": {
@@ -722,6 +733,11 @@
       "hashPath": "system.threading.channels.8.0.0.nupkg.sha512"
     },
     "ApplicationCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphqlClient/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

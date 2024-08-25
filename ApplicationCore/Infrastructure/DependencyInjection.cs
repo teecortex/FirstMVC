@@ -11,6 +11,7 @@ public static class DependencyInjection
         service.AddMemoryCache();
         service.AddScoped<ISubscriberService, ApplicationCore.Services.SubscriberService>();
         service.AddScoped<ISubscriberGrpcClient, SubscriberGrpcClient>();
+        // service.AddScoped<ISubscriberGraphqlService>();
 
         return service;
     }

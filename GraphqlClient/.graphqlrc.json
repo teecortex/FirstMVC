@@ -3,8 +3,7 @@
   "documents": "**/*.graphql",
   "extensions": {
     "strawberryShake": {
-      "name": "WebClient",
-      "namespace": "Web.Graphql",
+      "name": "GraphqlClient",
       "url": "http://localhost:5029/graphql",
       "records": {
         "inputs": false,

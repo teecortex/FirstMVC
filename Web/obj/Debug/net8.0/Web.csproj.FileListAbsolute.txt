@@ -50,10 +50,11 @@ C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\HotChocol
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\StrawberryShake.Core.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\StrawberryShake.Resources.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\StrawberryShake.Transport.Http.dll
-C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\.graphqlrc.json
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\StrawberryShake.Transport.WebSockets.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\ApplicationCore.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\ApplicationCore.pdb
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\GrpcClient.dll
 C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\GrpcClient.pdb
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\GraphqlClient.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\Web\bin\Debug\net8.0\GraphqlClient.pdb

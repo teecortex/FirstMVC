@@ -1,0 +1,16 @@
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\bin\Debug\net8.0\GraphqlClient.deps.json
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\bin\Debug\net8.0\GraphqlClient.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\bin\Debug\net8.0\GraphqlClient.pdb
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\GraphqlClient.csproj.AssemblyReference.cache
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\GraphqlClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\GraphqlClient.AssemblyInfoInputs.cache
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\GraphqlClient.AssemblyInfo.cs
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\GraphqlClient.csproj.CoreCompileInputs.cache
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\GraphqlClient.sourcelink.json
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\GraphqlClient.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\refint\GraphqlClient.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\GraphqlClient.pdb
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\ref\GraphqlClient.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\Эдуард\RiderProjects\WebProjectMVC\GraphqlClient\obj\Debug\net8.0\GraphqlC.BB374971.Up2Date

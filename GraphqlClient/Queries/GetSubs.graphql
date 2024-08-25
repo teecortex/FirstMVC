@@ -15,31 +15,31 @@ query GetSubscribers {
 }
 
 query GetServices{
-  services {
-    dateOfCreation
-    dateOfUpdate
-    description
-    expirationDate
-    id
-    price
-    title
-  }
+    services {
+        dateOfCreation
+        dateOfUpdate
+        description
+        expirationDate
+        id
+        price
+        title
+    }
 }
 
 
 query GetTariffs{
-  tariffs {
-    dateOfCreation
-    dateOfUpdate
-    description
-    id
-    internetTrafficLimit
-    minutesLimit
-    price
-    subscriptionFee
-    title
-    typeOfFeeDebit
-  }
+    tariffs {
+        dateOfCreation
+        dateOfUpdate
+        description
+        id
+        internetTrafficLimit
+        minutesLimit
+        price
+        subscriptionFee
+        title
+        typeOfFeeDebit
+    }
 }
 
 query GetSubscriber($id: Int!) {
@@ -84,4 +84,3 @@ query GetService($id: Int!) {
         title
     }
 }
-

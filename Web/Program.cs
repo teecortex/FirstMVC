@@ -1,4 +1,5 @@
 using ApplicationCore;
+using GraphqlClient.Infrastructure;
 using Grpc.Net.Client;
 using GrpcClient.Infrastructure;
 using MyHttpClient.Infrastructure;
@@ -19,14 +20,13 @@ builder.Services.AddMyHttpClient();
 builder.Services.AddMyGrpcClient();
 builder.Services.AddSubscriberGrpcService();
 
-builder.Services.AddWebClient().ConfigureHttpClient(client =>
-{
-    client.BaseAddress = new Uri("http://localhost:5029/graphql");
-});
+builder.Services.AddMyGraphQlClient();
+builder.Services.AddSubscriberGraphqlService();
 
 var app = builder.Build();
 
-var graphql_service = app.Services.GetService<WebClient>();
+// var graphqlService = app.Services.GetService<WebClient>();
+
 
 app.UseSwagger();
 app.UseSwaggerUI();

@@ -8,20 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\GraphqlClient\GraphqlClient.csproj" />
       <ProjectReference Include="..\GrpcClient\GrpcClient.csproj" />
       <ProjectReference Include="..\MyHttpClient\MyHttpClient.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <Protobuf Include="Protos\Subscriber.proto" GrpcServices="Client" OutputDir="GrpcServices" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <Protobuf Include="Protos\tariff.proto" GrpcServices="Client" OutputDir="GrpcServices" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <Protobuf Include="Protos\service.proto" GrpcServices="Client" OutputDir="GrpcServices" />
     </ItemGroup>
 
     <ItemGroup>
@@ -40,12 +29,6 @@
 
     <ItemGroup>
       <Watch Remove="Queries\QueryFirst.graphql" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <GraphQL Update="Queries\GetSubs.graphql">
-        <Generator>MSBuild:GenerateGraphQLCode</Generator>
-      </GraphQL>
     </ItemGroup>
 
 </Project>

@@ -34,6 +34,11 @@ public class SubscriberGrpcService : ISubscriberGrpcService
     {
         var subReply = await _client.GetSubscriberAsync(new GetSubscriberRequest(){Id = id}, new CallOptions());
 
+        if (subReply.Id == 0)
+        {
+            return null;
+        }
+
         var sub = new Subscriber()
         {
             Id = subReply.Id, FirstName = subReply.FirstName, LastName = subReply.LastName,

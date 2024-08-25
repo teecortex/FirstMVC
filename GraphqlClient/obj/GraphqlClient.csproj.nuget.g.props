@@ -12,4 +12,10 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Эдуард\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)strawberryshake.server\13.9.10\build\StrawberryShake.Server.props" Condition="Exists('$(NuGetPackageRoot)strawberryshake.server\13.9.10\build\StrawberryShake.Server.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgStrawberryShake_Server Condition=" '$(PkgStrawberryShake_Server)' == '' ">C:\Users\Эдуард\.nuget\packages\strawberryshake.server\13.9.10</PkgStrawberryShake_Server>
+  </PropertyGroup>
 </Project>

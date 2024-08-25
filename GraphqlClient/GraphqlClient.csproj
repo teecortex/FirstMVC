@@ -6,4 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="StrawberryShake.Server" Version="13.9.10" />
+      <PackageReference Include="StrawberryShake.Transport.Http" Version="13.9.10" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
+    </ItemGroup>
+
 </Project>

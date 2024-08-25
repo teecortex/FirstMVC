@@ -16,7 +16,7 @@ public class SubscriberHttpService : ISubscriberHttpClient
     public async Task<Subscriber[]?> GetSubscribers(CancellationToken token)
     {
         var uri = new Uri(_httpClient.BaseAddress + "api/subscribers");
-        var subs = await _httpClient.GetFromJsonAsync<Subscriber[]?>(uri);
+        var subs = await _httpClient.GetFromJsonAsync<Subscriber[]?>(uri, cancellationToken: token);
 
         return subs;
     }
@@ -24,7 +24,7 @@ public class SubscriberHttpService : ISubscriberHttpClient
     public async Task<Subscriber?> GetSubscriber(int id, CancellationToken token)
     {
         var uri = new Uri(_httpClient.BaseAddress + $"api/subscribers/{id}");
-        var sub = await _httpClient.GetFromJsonAsync<Subscriber?>(uri);
+        var sub = await _httpClient.GetFromJsonAsync<Subscriber?>(uri, cancellationToken: token);
 
         return sub;
     }
