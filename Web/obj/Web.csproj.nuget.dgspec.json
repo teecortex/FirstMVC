@@ -57,6 +57,10 @@
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -119,6 +123,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "StrawberryShake.Server": {
               "target": "Package",
               "version": "[13.9.10, )"
@@ -205,6 +213,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.62.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -270,6 +282,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -359,6 +375,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "StrawberryShake.Server": {
               "target": "Package",

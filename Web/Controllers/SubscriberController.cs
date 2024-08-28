@@ -7,15 +7,18 @@ namespace WebProjectMVC.Controllers;
 public class SubscriberController : Controller
 {
     private ISubscriberService _subscriberService;
+    private readonly ILogger<SubscriberController> _logger;
 
-    public SubscriberController(ISubscriberService subscriberService)
+    public SubscriberController(ISubscriberService subscriberService, ILogger<SubscriberController> logger)
     {
         _subscriberService = subscriberService;
+        _logger = logger;
     }
-
+    
     [HttpGet]
     public async Task<IActionResult> Subscribers(CancellationToken token)
     {
+        _logger.LogInformation("Getting all subscribers");
         var response = await _subscriberService.GetSubscribers(token);
         return View(response);
     }

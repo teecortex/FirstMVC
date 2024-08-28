@@ -1,9 +1,8 @@
 using ApplicationCore;
 using GraphqlClient.Infrastructure;
-using Grpc.Net.Client;
 using GrpcClient.Infrastructure;
 using MyHttpClient.Infrastructure;
-using Web.Graphql;
+using Serilog;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Host.UseSerilog((context, configuration) => configuration.ReadFrom.Configuration(context.Configuration));
 
 builder.Services.AddApplication();
 
@@ -25,17 +25,9 @@ builder.Services.AddSubscriberGraphqlService();
 
 var app = builder.Build();
 
-// var graphqlService = app.Services.GetService<WebClient>();
-
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
-// using var channel = GrpcChannel.ForAddress("http://localhost:5037");
-
-// var sub_client = new SubscriberService.SubscriberServiceClient(channel);
-// var tariff_client = new TariffService.TariffServiceClient(channel);
-// var service_client = new ServiceService.ServiceServiceClient(channel);
 
 
 // Configure the HTTP request pipeline.
@@ -48,6 +40,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.UseSerilogRequestLogging();
 
 app.UseRouting();
 
